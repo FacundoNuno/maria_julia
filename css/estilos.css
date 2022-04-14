@@ -353,8 +353,9 @@ h4{
     }
 }
 
-
-
+.carousel-item{
+    height: 500px;
+}
 
 
 
