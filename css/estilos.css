@@ -231,9 +231,7 @@ h4{
     font-size: medium;
     font-weight: 900;
 }
-.bajar-formulario{
-    margin-top: 150px;
-}
+
 
 .footer{
     display: grid;
@@ -357,6 +355,15 @@ h4{
     height: 500px;
 }
 
-
-
-
+form input{
+    margin-top: 5px;
+}
+form textarea{
+    margin-top: 5px;
+}
+.contacto{
+    
+}
+.bajar-formulario{
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <title>inmobiliaria.maria_julia</title>
 </head>
 <body>
@@ -22,18 +23,18 @@
             </ul>
         </nav>
     </header>
-    
-    
-    <div class="bajar-formulario">
-        <h2>Contactanos</h2>
-        <form action="Ejemplo.php"method="Post">
-                <input type="text" name="nombre y apellido" required placeholder="Nombre y apellido">
-                <input type="Email" name="Email" required placeholder="Email">
-                <input type="Telefono" name="Telefono" required placeholder="Telefono">
-                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Dejenos su comentario"></textarea>
-                <input type="submit" value="Enviar" id="enviarFormulario">
-            </form>
-    </div>
+    <main class="contacto">
+        <div class="bajar-formulario form-group">
+            <h2>Contactanos</h2>
+            <form class="card border-2 shadow p-3  bg-body rounded" action="Ejemplo.php"method="Post">
+                    <input class="form-control" type="text" name="nombre y apellido" required placeholder="Nombre y apellido">
+                    <input class="form-control" type="Email" name="Email" required placeholder="Email">
+                    <input class="form-control" type="Telefono" name="Telefono" required placeholder="Telefono">
+                    <textarea class="form-control" name="mensaje" id="" cols="30" rows="10" placeholder="Dejenos su comentario"></textarea>
+                    <input class="btn btn-outline-primary" type="submit" value="Enviar" id="enviarFormulario">
+                </form>
+        </div>
+    </main>
     <footer class="footer">
         <div class="alinear1">
             <img src="../assets/logos/Screenshot_3.png"alt="San martin 1650">
@@ -48,6 +49,7 @@
             <p>+5491165788585</p>
         </div>
 </footer>
+<script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
     
