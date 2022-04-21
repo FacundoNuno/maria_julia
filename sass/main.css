@@ -1,0 +1,32 @@
+.encabezado {
+  color: green;
+  font-size: 70px;
+  text-align: center;
+  background-position: center;
+  background-image: url(/assets/background/color-crema.jpg);
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2fcdcd;
+  height: 80px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuHambu {
+  width: 20px;
+  display: none;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */

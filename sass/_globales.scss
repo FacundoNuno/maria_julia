@@ -1,0 +1,24 @@
+
+body{
+    background-color: lightcyan;
+    background-repeat: repeat-x;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+
+}
+h2{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(28, 161, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
