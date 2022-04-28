@@ -1,0 +1,9 @@
+@mixin encabezado{
+    color: green;
+	font-size: 70px;
+	text-align: center;
+    background-position: center;
+    background-image: url(/assets/background/color-crema.jpg);
+}
+$tarjeta-img:(height: 100%,
+width: 100%);
